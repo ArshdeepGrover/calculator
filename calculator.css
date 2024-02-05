@@ -24,9 +24,10 @@ body{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  position: relative;
 }
 #backspace{
-  position: fixed;
+  position: absolute;
   text-align: right;
   margin-left: 361px;
   font-size: 30px;
